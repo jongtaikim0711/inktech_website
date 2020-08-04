@@ -35,7 +35,7 @@ img {
   min-height: 100vh;
 }
 
-ul.links {
+.links ul {
   list-style-type: none;
   margin: 5px;
   padding: 5px;
@@ -44,11 +44,11 @@ ul.links {
   vertical-align: bottom;
 }
 
-li {
+.links li {
   float: left;
 }
 
-a {
+.links a {
   display: block;
   padding: 8px;
   background-color: #dddddd;

@@ -55,9 +55,12 @@ a {
 }
 
 ul.listpeople {
-    list-style-type: circle;
+  list-style-type: circle;
 }
 
+.listpeople li {
+  float: inherit;
+}
 .headers {
   background-color: #11233b;
   color: white;

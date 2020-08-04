@@ -44,7 +44,7 @@ ul.links {
   vertical-align: bottom;
 }
 
-li {
+.links li {
   float: left;
 }
 

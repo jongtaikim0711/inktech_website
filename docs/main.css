@@ -44,7 +44,7 @@ ul.links {
   vertical-align: bottom;
 }
 
-.links li {
+.headerss nav ul li {
   float: left;
 }
 
@@ -58,9 +58,6 @@ ul.listpeople {
   list-style-type: circle;
 }
 
-.listpeople li {
-  float: inherit;
-}
 .headers {
   background-color: #11233b;
   color: white;

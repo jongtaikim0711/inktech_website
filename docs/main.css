@@ -44,11 +44,11 @@ ul.links {
   vertical-align: bottom;
 }
 
-.links li {
+li {
   float: left;
 }
 
-.links a {
+a {
   display: block;
   padding: 8px;
   background-color: #dddddd;

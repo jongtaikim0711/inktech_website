@@ -6,24 +6,24 @@ article, aside, footer, header, main, nav, section {
 
 html, body, h1, h2, h3, ul, li, a, p,
 article, aside, footer, header, main, nav, section {
-  padding: 0;
-  margin: 0;
+  padding: 5px;
+  margin: 5px;
 }
 
-ul {
+.headerss nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   width: 50%;
   display: inline-block;
-  vertical-align: top;
+  vertical-align: bottom;
 }
 
-li {
+.headerss nav ul li {
   float: left;
 }
 
-a {
+.headerss nav ul a {
   display: block;
   padding: 8px;
   background-color: #dddddd;
@@ -31,7 +31,7 @@ a {
 
 img {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: bottom;
 }
 
 #header {

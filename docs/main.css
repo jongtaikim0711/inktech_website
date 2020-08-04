@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+article, aside, footer, header, main, nav, section {
+  display: block;
+}
+
+html, body, h1, h2, h3, ul, li, a, p,
+article, aside, footer, header, main, nav, section {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#header {
+  padding-bottom: 2.5 rem;
+}
+
+#main {
+  padding-bottom: 2.5 rem;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+#page {
+  position: relative;
+  min-height: 100vh;
+}
+
+.headers {
+  background-color: #11233b;
+  color: white;
+  padding: 10px 20px;
+}
+
+.footers {
+  
+}

@@ -10,25 +10,6 @@ article, aside, footer, header, main, nav, section {
   margin: 5px;
 }
 
-.headerss nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 50%;
-  display: inline-block;
-  vertical-align: bottom;
-}
-
-.headerss nav ul li {
-  float: left;
-}
-
-.headerss nav ul a {
-  display: block;
-  padding: 8px;
-  background-color: #dddddd;
-}
-
 img {
   display: inline-block;
   vertical-align: bottom;
@@ -52,6 +33,25 @@ img {
 #page {
   position: relative;
   min-height: 100vh;
+}
+
+#links {
+  list-style-type: none;
+  margin: 5px;
+  padding: 5px;
+  width: 50%;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+#links li {
+  float: left;
+}
+
+#links a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
 }
 
 .headers {

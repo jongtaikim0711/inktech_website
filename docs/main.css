@@ -35,7 +35,7 @@ img {
   min-height: 100vh;
 }
 
-#links {
+ul.links {
   list-style-type: none;
   margin: 5px;
   padding: 5px;
@@ -44,14 +44,18 @@ img {
   vertical-align: bottom;
 }
 
-#links li {
+.links li {
   float: left;
 }
 
-#links a {
+.links a {
   display: block;
   padding: 8px;
   background-color: #dddddd;
+}
+
+ul.listpeople {
+    list-style-type: circle;
 }
 
 .headers {

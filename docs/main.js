@@ -24,7 +24,7 @@ $(document).ready(function(){
 
 // to make header fix header on the top
 window.onscroll = function() {putHeaderTop()};
-var header = document.getElementById("headers");
+var header = document.getElementById("headerss");
 var sticky = header.offsetTop;
 
 function putHeaderTop() {

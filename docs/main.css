@@ -10,13 +10,17 @@ article, aside, footer, header, main, nav, section {
   margin: 5px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 img {
   display: inline-block;
   vertical-align: bottom;
 }
 
 /* To make header fix on the top */
-.sticky {
+/* .sticky {
   position: fixed;
   top: 0;
   width: 100%
@@ -24,13 +28,12 @@ img {
 
 .sticky + .content {
   padding-top: 102px;
-}
+} */
+
 /* End of making header top */
 
 
-#header {
-  padding-bottom: 2.5 rem;
-}
+
 
 #main {
   padding-bottom: 2.5 rem;
@@ -57,17 +60,30 @@ ul.links {
   vertical-align: bottom;
 }
 
+
+.headers {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
 .headerss {
   background-color:  #11233b;
   overflow: hidden;
   color: white;
   padding: 10px 20px;
+  padding-bottom: 2.5 rem;
 }
 
 .headerss a {
-  display: block;
-  padding: 8px;
-  background-color: #dddddd;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 .headerss a:hover {

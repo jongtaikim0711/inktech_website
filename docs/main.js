@@ -23,15 +23,15 @@ $(document).ready(function(){
 });
 
 // to make header fix header on the top
-window.onscroll = function() {putHeaderTop()};
-var header = document.getElementById("headers");
-var sticky = header.offsetTop;
-
-function putHeaderTop() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
-}
+// window.onscroll = function() {putHeaderTop()};
+// var header = document.getElementById("headers");
+// var sticky = header.offsetTop;
+//
+// function putHeaderTop() {
+//   if (window.pageYOffset > sticky) {
+//     header.classList.add("sticky");
+//   } else {
+//     header.classList.remove("sticky");
+//   }
+// }
 // end of fixing header top

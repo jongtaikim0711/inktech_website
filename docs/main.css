@@ -20,7 +20,7 @@ img {
 }
 
 /* To make header fix on the top */
-/* .sticky {
+.sticky {
   position: fixed;
   top: 0;
   width: 100%
@@ -28,7 +28,7 @@ img {
 
 .sticky + .content {
   padding-top: 102px;
-} */
+}
 
 /* End of making header top */
 

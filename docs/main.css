@@ -15,6 +15,19 @@ img {
   vertical-align: bottom;
 }
 
+/* To make header fix on the top */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+/* End of making header top */
+
+
 #header {
   padding-bottom: 2.5 rem;
 }
@@ -44,25 +57,33 @@ ul.links {
   vertical-align: bottom;
 }
 
-.headerss nav ul li {
-  float: left;
+.headerss {
+  background-color:  #11233b;
+  overflow: hidden;
+  color: white;
+  padding: 10px 20px;
 }
 
-a {
+.headerss a {
   display: block;
   padding: 8px;
   background-color: #dddddd;
 }
 
+.headerss a:hover {
+  border-bottom: 3px solid red;
+}
+
+.headerss a.active {
+ border-bottom: 3px solid red;
+}
+
+
+
 ul.listpeople {
   list-style-type: circle;
 }
 
-.headers {
-  background-color: #11233b;
-  color: white;
-  padding: 10px 20px;
-}
 
 .footers {
 

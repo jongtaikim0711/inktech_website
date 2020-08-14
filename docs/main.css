@@ -72,6 +72,7 @@ ul.links {
 
 .headerss {
   background-color:  #11233b;
+  position: fixed;
   overflow: hidden;
   color: white;
   padding: 10px 20px;

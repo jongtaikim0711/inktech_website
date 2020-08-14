@@ -6,8 +6,8 @@ article, aside, footer, header, main, nav, section {
 
 html, body, h1, h2, h3, ul, li, a, p,
 article, aside, footer, header, main, nav, section {
-  padding: 5px;
-  margin: 5px;
+  padding: 10px;
+  margin: 10px;
 }
 
 html {
@@ -15,8 +15,8 @@ html {
 }
 
 body{
-    padding-top: 60px;
-    padding-bottom: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 img {
@@ -79,8 +79,9 @@ ul.links {
   background-color:  #11233b;
   position: fixed;
   overflow: hidden;
+  width: 100%
   color: white;
-  padding: 10px 20px;
+  padding: 10px 0;
   padding-bottom: 2.5 rem;
   top: 0;
 }
@@ -102,7 +103,9 @@ ul.links {
  border-bottom: 3px solid red;
 }
 
-
+.headerss-right {
+  float: right;
+}
 
 ul.listpeople {
   list-style-type: circle;

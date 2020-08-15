@@ -60,7 +60,7 @@ ul.links {
   list-style-type: none;
   margin: 5px;
   padding: 5px;
-  width: 50%;
+  width: 100%;
   display: inline-block;
   vertical-align: bottom;
 }
@@ -75,7 +75,7 @@ ul.links {
 } */
 
 
-.headers {
+.headerss {
   background-color:  #11233b;
   position: fixed;
   width: 100%
@@ -84,7 +84,7 @@ ul.links {
   top: 0;
 }
 
-.headers a {
+.headerss a {
   float: left;
   color: #f2f2f2;
   text-align: center;
@@ -93,11 +93,11 @@ ul.links {
   font-size: 17px;
 }
 
-.headers a:hover {
+.headerss a:hover {
   border-bottom: 3px solid red;
 }
 
-.headers a.active {
+.headerss a.active {
  border-bottom: 3px solid red;
 }
 

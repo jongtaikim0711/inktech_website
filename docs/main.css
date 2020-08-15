@@ -62,17 +62,7 @@ ul.links {
   vertical-align: bottom;
 }
 
-/*
 .headers {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-} */
-
-
-.headerss {
   background-color:  #11233b;
   position: fixed;
   width: 100%
@@ -84,7 +74,7 @@ ul.links {
   text-align: center;
 }
 
-.headerss a {
+.headers a {
   float: left;
   color: #f2f2f2;
   text-align: center;
@@ -93,11 +83,11 @@ ul.links {
   font-size: 17px;
 }
 
-.headerss a:hover {
+.headers a:hover {
   border-bottom: 3px solid red;
 }
 
-.headerss a.active {
+.headers a.active {
  border-bottom: 3px solid red;
 }
 

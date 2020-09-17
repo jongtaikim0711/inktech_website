@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
   $('.headers').load('headers.html');
 });
@@ -6,6 +7,7 @@ $(document).ready(function(){
   $('.index').load('index.html');
 });
 
+/*
 $(document).ready(function(){
   $('.introduction').load('introduction.html');
 });
@@ -17,6 +19,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $('.contact').load('contact.html');
 });
+*/
 
 $(document).ready(function(){
   $('.footers').load('footers.html');
